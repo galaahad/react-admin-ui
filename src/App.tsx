@@ -62,6 +62,14 @@ function App() {
           path: "/products/:id",
           element: <Product />,
         },
+        {
+          path: "/signin",
+          element: <Login />,
+        },
+        {
+          path: "/signup",
+          element: <Menu />,
+        }
       ],
     },
     {
